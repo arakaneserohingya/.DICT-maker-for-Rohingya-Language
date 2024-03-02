@@ -3,16 +3,37 @@
 1. Make rohingya_wordlist.combined file using [RohingyaCombinedMaker](https://github.com/arakaneserohingya/RohingyaCombinedMaker)
    which will look like this:
 
+```python
+dictionary=main:rhg,locale=rhg,description=Rohingya wordlist,date=02132024,version=1
 
 
-2. download dicttool_aosp.jar from this repo.
+ word= 𐴉𐴥𐴠𐴓𐴝𐴘 𐴊𐴞𐴘𐴧𐴠, f=254
+ word= 𐴈𐴡𐴔, f=254
+ word= 𐴁𐴝𐴙𐴄𐴧𐴝𐴒𐴡𐴌𐴥𐴡𐴕, f=254
+ word= 𐴁𐴝𐴙𐴄𐴧𐴝, f=254
+ word=𐴀𐴠𐴌𐴞 𐴊𐴦𐴡𐴕, f=254
+ word= 𐴉𐴠𐴍, f=254
+ word=𐴊𐴦𐴝𐴉𐴥𐴝𐴘𐴓𐴡𐴘𐴎𐴦𐴡𐴕 𐴒𐴥𐴡𐴘, f=254
+ word= 𐴄𐴤𐴡𐴌𐴦𐴡𐴕, f=254
+ word= 𐴃𐴝𐴑𐴡𐴃𐴢, f=254
+ word=𐴈𐴝𐴔𐴡𐴃𐴢 𐴀𐴝𐴕𐴦𐴡𐴕, f=254
+ word= 𐴒𐴟𐴏𐴡𐴓𐴢, f=254
+ word=𐴏𐴥𐴝𐴉𐴢 𐴒𐴡𐴌𐴥𐴠𐴉𐴥𐴠𐴓, f=254
+ word=𐴉𐴥𐴠𐴓𐴝𐴘 𐴊𐴥𐴠, f=254
+```
+
+
+
+2. Download [dicttool_aosp.jar](https://github.com/arakaneserohingya/.DICT-maker-for-Rohingya-Language/blob/main/dicttool_aosp.jar)
 3. put dicttool_aosp.jar and rohingya_wordlist.combined in the same directory.
 
-   To convert the rohingya_wordlist.combined file to a rohingya.dict file using dicttool_aosp.jar, you would need to run the following command in your terminal or command prompt:
+To convert the rohingya_wordlist.combined file to a rohingya.dict file using dicttool_aosp.jar, you would need to run the following command in your terminal or command prompt:
 bash
 
-# Copy code
-* java -jar /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/dicttool_aosp.jar makedict -s /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/rohingya_wordlist.combined -d /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/rohingya.dict
+# Copy this command
+```python
+ java -jar /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/dicttool_aosp.jar makedict -s /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/rohingya_wordlist.combined -d /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/rohingya.dict
+  ```
 
 This command assumes that:
 
