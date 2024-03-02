@@ -1,6 +1,6 @@
-# .DICT-maker-for-Rohingya-Language
+## .DICT-maker-for-Rohingya-Language
 
-1. Make rohingya_wordlist.combined file using https://github.com/arakaneserohingya/RohingyaCombinedMaker
+1. Make rohingya_wordlist.combined file using [RohingyaCombinedMaker](https://github.com/arakaneserohingya/RohingyaCombinedMaker)
    which will look like this:
 
 
