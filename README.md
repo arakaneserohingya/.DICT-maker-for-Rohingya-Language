@@ -24,18 +24,27 @@ dictionary=main:rhg,locale=rhg,description=Rohingya wordlist,date=02132024,versi
 
 
 
-2. Download [dicttool_aosp.jar](https://github.com/arakaneserohingya/.DICT-maker-for-Rohingya-Language/blob/main/dicttool_aosp.jar)
+2. Download [dicttool_aosp.jar](https://github.com/arakaneserohingya/.DICT-maker-for-Rohingya-Language/blob/main/dicttool_aosp.jar) (taken from https://github.com/remi0s/aosp-dictionary-tools)
 3. put dicttool_aosp.jar and rohingya_wordlist.combined in the same directory.
 
 To convert the rohingya_wordlist.combined file to a rohingya.dict file using dicttool_aosp.jar, you would need to run the following command in your terminal or command prompt:
 bash
 
-# Copy this command
+
+## Locate the file path in terminal
 ```python
+cd /Users/ahkterhusin/PycharmProjects/aosp-dictionaries/
+ ```
+
+
+
+
+## Copy this command and run
+```bash
  java -jar /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/dicttool_aosp.jar makedict -s /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/rohingya_wordlist.combined -d /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/rohingya.dict
   ```
 
-This command assumes that:
+# This command assumes that:
 
 * dicttool_aosp.jar is located at /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/.
 * rohingya_wordlist.combined is located at /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/.
