@@ -31,7 +31,7 @@ To convert the rohingya_wordlist.combined file to a rohingya.dict file using dic
 bash
 
 
-## Locate the file path in terminal
+### Locate the file path in terminal
 ```python
 cd /Users/ahkterhusin/PycharmProjects/aosp-dictionaries/
  ```
@@ -39,13 +39,31 @@ cd /Users/ahkterhusin/PycharmProjects/aosp-dictionaries/
 
 
 
-## Copy this command and run
+### Copy this command and run
 ```bash
  java -jar /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/dicttool_aosp.jar makedict -s /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/rohingya_wordlist.combined -d /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/rohingya.dict
   ```
 
-# This command assumes that:
+### This command assumes that:
 
 * dicttool_aosp.jar is located at /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/.
 * rohingya_wordlist.combined is located at /Users/ahkterhusin/PycharmProjects/aosp-dictionary-tools/.
 Make sure to replace the paths with the correct locations of your files on your system. After running this command, the rohingya.dict file should be created in the specified directory.
+
+### FYI
+
+A file with a .dict extension typically refers to a dictionary file. It can contain various types of data structured for use in dictionary applications or software. Here are a few common uses:
+
+* Word Lists: 
+.dict files may contain lists of words along with additional information such as definitions, part of speech, pronunciation, or usage examples.
+
+* Language Dictionaries:
+These files can store language dictionaries used by software for spell checking or word suggestion purposes.
+
+* Specialized Dictionaries:
+Some .dict files may contain specialized dictionaries, such as medical, legal, or technical dictionaries.
+
+* Encoded Data:
+In some cases, .dict files might contain encoded or compressed data, used for efficient storage or transmission of dictionary information.
+
+The specific format and content of a .dict file depend on the application or software that uses it. They are typically designed to be easily readable and processed by the corresponding software.
